@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../style.css">
     <link href="/assets/prism/prism.css" rel="stylesheet" /> 
 
+
 </head>
 
 <body>
@@ -36,10 +37,14 @@
     </div>
 
     <div class="main-section">
+
+ <!-- Avatar Begins -->
+ <div class="component-container">
+ <div class="avatar-container">
         <h1 class="item-head">Avatar</h1>
         <p class="item-desc">Show display picture of a user</p>
         <p class="item-details">To use this avatar, you can use class name 'avatar'. For multiple sizes following classes can be used av-xxl, av-xl, av-lg, av-sm </p>
-        <div class="item-conainter">
+        <div class="avatar-item-container">
          
             <div class="avatar av-xxl">
                 <img src="/assets/avatar.png">
@@ -53,8 +58,6 @@
             <div class="avatar av-sm">
                 <img src="/assets/avatar.png">
             </div>
-
-
         </div>
      
         <pre>
@@ -77,6 +80,150 @@
         </pre>
        
     </div>
+</div>
+ <!-- Avatar Ends -->
+
+
+  <!-- Alert Begins -->
+  <div class="component-container">
+ <div class="alert-container">
+    <h1 class="item-head">Alert</h1>
+    <p class="item-desc">Show alert for multiple scenarios: Information, Error, Warning, Success </p>
+    <p class="item-details">To use this alertbox, you can use class name 'alert'. For multiple scenarios following classes can be used alert-info, alert-success, alert-error, alert-warning </p>
+    <div class="alert-item-container">     
+        <div class="alert alert-info">           
+            <span>Example for info Alert      
+            </span>
+        </div>
+    </div>
+
+    <div class="alert-item-container">     
+        <div class="alert alert-success">           
+            <span>Example for Success Alert      
+            </span>
+        </div>
+    </div>
+
+    <div class="alert-item-container">     
+        <div class="alert alert-warning">           
+            <span>Example for Warning Alert      
+            </span>
+        </div>
+    </div>
+
+    <div class="alert-item-container">     
+        <div class="alert alert-error">           
+            <span>Example for Error Alert      
+            </span>
+        </div>
+    </div>
+ 
+    <pre>
+        <code class="language-markup">
+            <script type="prism-html-markup">
+                <div class="alert-item-container">     
+                    <div class="alert alert-warning">           
+                        <span>Example for Warning Alert      
+                        </span>
+                    </div>
+                </div>
+            </script>
+        </code>
+    </pre>
+</div> 
+</div>
+<!-- Alert Ends -->
+
+  <!-- Badge Begins -->
+
+  <div class="component-container">
+  <div class="badge-container">
+    <h1 class="item-head">Badge</h1>
+    <p class="item-desc">Show Badge for multiple notification: Online, Offline, Count</p>
+    <p class="item-details">To use this alertbox, you can use class name 'badge'. For multiple scenarios following classes can be used badge-online, badge-offline, badge-count </p>
+    <div class="avatar-container">
+       
+        <div class="avatar-item-container">
+         
+            <div class="avatar av-xxl">               
+                <div class="badge-wrapper">
+                    <img src="/assets/avatar.png">
+                <span class="badge badge-online "></span>
+                </div>
+            </div>
+            <div class="avatar av-xxl">               
+                <div class="badge-wrapper">
+                    <img src="/assets/avatar.png">
+                <span class="badge badge-busy "></span>
+                </div>
+            </div>
+        </div>
+     
+       
+       
+    </div>
+ 
+    <pre>
+        <code class="language-markup">
+            <script type="prism-html-markup">
+                <div class="avatar av-xxl">               
+                    <div class="badge-wrapper">
+                        <img src="/assets/avatar.png">
+                    <span class="badge badge-online "></span>
+                    </div>
+                </div>
+                <div class="avatar av-xxl">               
+                    <div class="badge-wrapper">
+                        <img src="/assets/avatar.png">
+                    <span class="badge badge-busy "></span>
+                    </div>
+                </div>
+            </script>
+        </code>
+    </pre>
+</div> 
+</div>
+<!-- Badge Ends -->
+
+
+ <!-- Button Begins -->
+ <div class="component-container">
+    <div class="button-container">
+       <h1 class="item-head">Button</h1>
+       <p class="item-desc">Multiple buttons: Primary, Secondary, CTA, Icon button, Floating Action Button</p>
+       <p class="item-details">To use this buttons, you can use class name 'btn'. For multiple scenarios following classes can be used btn-primary,btn-secondary </p>
+<div class="button-wrapper">
+       <button href="#" class="btn btn-primary">Primary</button>
+       <button href="#" class="btn btn-secondary">Primary</button>
+       <button href="#" class="btn btn-secondary">  <i class="btn-icon fas fa-shopping-cart"></i>Add to Cart</button>
+     
+</div>
+       <pre>
+           <code class="language-markup">
+               <script type="prism-html-markup">
+                <div class="button-wrapper">
+                    <button href="#" class="btn btn-primary">Primary</button>
+                    <button href="#" class="btn btn-secondary">Primary</button>
+                    <button href="#" class="btn btn-secondary"> 
+                        <i class="btn-icon fas fa-shopping-cart"></i>
+                        Add to Cart
+                    </button>
+                </div>
+               </script>
+           </code>
+       </pre>
+   </div> 
+   </div>
+   <!-- Button Ends -->
+
+
+
+
+</div>
+</div>
+<!-- Avatar Ends -->
+
     <script src="/assets/prism/prism.js"></script> 
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
 </body>
 </html>
