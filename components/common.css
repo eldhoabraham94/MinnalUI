@@ -1,0 +1,7 @@
+.item-conainter{
+    display: flex;
+    align-items:baseline
+}
+.item-desc{
+    font-size: 1.5rem;;
+}

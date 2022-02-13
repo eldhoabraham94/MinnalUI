@@ -1,0 +1,20 @@
+.avatar{
+    object-fit: cover;
+}
+
+.av-xxl{
+    width: 12rem;
+    height: auto;
+}
+.av-xl{
+    width: 10rem;
+    height: auto;
+}
+.av-lg{
+    width: 8rem;
+    height: auto;
+}
+.av-sm{
+    width: 6rem;
+    height: auto;
+}
