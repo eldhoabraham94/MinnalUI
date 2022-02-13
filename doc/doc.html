@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minnal UI - A lightning fast UI component library</title>
     <link rel="stylesheet" href="../style.css">
- 
+    <link href="/assets/prism/prism.css" rel="stylesheet" /> 
 
 </head>
 
 <body>
+ 
     <nav>
        
         <label for="check">
@@ -33,5 +34,49 @@
             </ul>
         </nav>
     </div>
+
+    <div class="main-section">
+        <h1 class="item-head">Avatar</h1>
+        <p class="item-desc">Show display picture of a user</p>
+        <p class="item-details">To use this avatar, you can use class name 'avatar'. For multiple sizes following classes can be used av-xxl, av-xl, av-lg, av-sm </p>
+        <div class="item-conainter">
+         
+            <div class="avatar av-xxl">
+                <img src="/assets/avatar.png">
+            </div>
+            <div class="avatar av-xl">
+                <img src="/assets/avatar.png">
+            </div>
+            <div class="avatar av-lg">
+                <img src="/assets/avatar.png">
+            </div>
+            <div class="avatar av-sm">
+                <img src="/assets/avatar.png">
+            </div>
+
+
+        </div>
+     
+        <pre>
+            <code class="language-markup">
+                <script type="prism-html-markup">
+                    <div class="avatar av-xxl">
+                        <img src="/assets/avatar.png">
+                    </div>
+                    <div class="avatar av-xl">
+                        <img src="/assets/avatar.png">
+                    </div>
+                    <div class="avatar av-lg">
+                        <img src="/assets/avatar.png">
+                    </div>
+                    <div class="avatar av-sm">
+                        <img src="/assets/avatar.png">
+                    </div>
+                </script>
+            </code>
+        </pre>
+       
+    </div>
+    <script src="/assets/prism/prism.js"></script> 
 </body>
 </html>
