@@ -1,0 +1,33 @@
+.main-section{
+    padding:3rem;
+}
+
+.component-container{
+    padding:3rem;
+}
+.item-desc{
+    font-size: 1.5rem;;
+}
+
+:root{
+    /* FONT SIZE  */
+
+    font-size:62.5%;
+
+    /* COLORS */
+
+    --ALERT-INFO-TEXT:#004085;
+    --ALERT-INFO-BACKGROUND:#cce5ff;
+    --ALERT-SUCCESS-TEXT:#006d00;
+    --ALERT-SUCCESS-BACKGROUND:#e6ffdc;
+    --ALERT-WARNING-TEXT:#a37a00;
+    --ALERT-WARNING-BACKGROUND:#fff3cd;
+    --ALERT-ERROR-TEXT:#664d03;
+    --ALERT-ERROR-BACKGROUND:#ffe3e3;
+    --BADGE-ONLINE:#059669;
+    --BADGE-BUSY:#800000;
+    --BUTTON-BACKGROUND:#00adef;
+    --BUTTON-TEXT:#ffffff;
+    --BUTTON-BACKGROUND-SECONDARY:#9CA3AF;
+    --BUTTON-TEXT-SECONDARY:#ffffff;
+}

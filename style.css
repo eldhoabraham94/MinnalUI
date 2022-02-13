@@ -1,3 +1,10 @@
+@import "/components/avatar/avatar.css";
+@import "/components/alert/alert.css";
+@import "/components/button/button.css";
+@import "/components/badge/badge.css";
+@import "/components/common.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
 *{
     padding:0;
     margin: 0%;
@@ -7,9 +14,12 @@
 }
 
 body{
-    font-family: montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
 nav{
     background: #0082e6;
     height: 80px;
