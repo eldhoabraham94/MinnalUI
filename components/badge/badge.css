@@ -32,3 +32,15 @@
     background-color: var(--BADGE-BUSY);
     
 }
+
+.badge-new{
+    border-radius: 5%;;
+    width:5rem;
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    background-color: var(--BUTTON-BACKGROUND);
+    color: var(--ALERT-INFO-BACKGROUND);
+    padding: 0.2rem 0.5rem;   
+    font-weight: 700;
+}
