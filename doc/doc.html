@@ -466,7 +466,7 @@
                   </code>
          </pre>
 
-         <h3>Responsive Circle images</h3>
+        <h3>Responsive Circle images</h3>
         <div class="image-item-container">
           <div class="img img-xxl img-rnd">
             <img src="/assets/avatar.png" />
@@ -510,15 +510,15 @@
         <h1 class="item-head">Input Fields</h1>
         <p class="item-desc">Show multiple input fields with warning,error,success states</p>
         <p class="item-details">
-          To use this responsive sizing, you can use class name 'img img-xxl'. For multiple
-          sizes following classes can be used img-xxl, img-xl, img-lg, img-sm
+          To use this responsive sizing, you can use class name 'input-box input-search input-warning'. For multiple
+          scenarios input-warning, input-error can be used.
         </p>
         <h3>Text Input Field Normal</h3>
         <div class="input-item-container">
           <div class="input-box input-search">
             <input type="text" class="input-basic input-basic-icon" placeholder="Search" name="search">
             <i class="icon-basic fas fa-search"></i>
-        </div>
+          </div>
         </div>
 
         <h3>Text Input Field Warning</h3>
@@ -526,7 +526,7 @@
           <div class="input-box input-search input-warning">
             <input type="text" class="input-basic input-basic-icon" placeholder="Search" name="search">
             <i class="icon-basic fas fa-search"></i>
-        </div>
+          </div>
         </div>
 
         <h3>Text Input Field Error</h3>
@@ -534,21 +534,31 @@
           <div class="input-box input-search input-error">
             <input type="text" class="input-basic input-basic-icon" placeholder="Search" name="search">
             <i class="icon-basic fas fa-search"></i>
-        </div>
+          </div>
         </div>
 
         <pre>
                   <code class="language-markup">
                       <script type="prism-html-markup">
-                        <div class="input-box input-search">
+                      <div class="input-box input-search">
+                            <input type="text" class="input-basic input-basic-icon" placeholder="Search" name="search">
+                            <i class="icon-basic fas fa-search"></i>
+                      </div>
+
+                        <div class="input-box input-search input-warning">
                           <input type="text" class="input-basic input-basic-icon" placeholder="Search" name="search">
                           <i class="icon-basic fas fa-search"></i>
+                        </div>
+
+                      <div class="input-box input-search input-error">
+                        <input type="text" class="input-basic input-basic-icon" placeholder="Search" name="search">
+                        <i class="icon-basic fas fa-search"></i>
                       </div>
                       </script>
                   </code>
          </pre>
 
-       
+
       </div>
     </div>
     <!-- Image Ends -->
