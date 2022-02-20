@@ -1,0 +1,33 @@
+.list-main-container{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+
+.section-ul{
+    display: flex;
+    justify-content: space-around;
+}
+.unordered-list-circle li{
+    list-style-type: circle;
+}
+
+.unordered-list-disc li{
+    list-style-type: disc;
+}
+.unordered-list-square li{
+    list-style-type: square;
+}
+
+.item{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: var(--STACKED-BORDER-OUTLINE);
+    border: 1px solid ;
+    background:  var(--STACKED-BORDER-BACKGROUND);
+}
+
+
+

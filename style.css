@@ -8,6 +8,7 @@
 @import "/components/input/input.css";
 @import "/components/modal/modal.css";
 @import "/components/snackbar/snackbar.css";
+@import "/components//list/list.css";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
 
 *{
