@@ -17,6 +17,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -82,6 +83,7 @@ a.active,a:hover{
 .hero-contianer{
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .hero-content{
