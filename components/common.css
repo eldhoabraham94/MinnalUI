@@ -36,4 +36,12 @@
     --MODAL-COLOR:#fff;
     --MODAL-BORDER-COLOR:#004085;
     --MODAL-BORDER-OUTLINE: #cbd5e1;
+    --STACKED-BORDER-OUTLINE:#004085;
+    --STACKED-BORDER-BACKGROUND:#c1c7d0
+}
+
+.install-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
