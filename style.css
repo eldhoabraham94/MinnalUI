@@ -59,3 +59,43 @@ a.active,a:hover{
     background: #1b9bff;
     transition: .5s;
 }
+
+.main-content{
+    display: flex;
+}
+.sidebar{
+    flex: 0 0 25%;
+}
+
+.sidebar-head{
+    margin:2rem;
+    font-size: 3rem;
+}
+
+.sidebar-subhead{
+    font-size: 2rem;
+    padding-left: 3rem;
+    margin:1.5rem;
+    
+}
+
+.hero-contianer{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content h1{
+    text-align: center;
+    margin: 10rem;
+}
+
+button{
+    cursor: pointer;
+}
