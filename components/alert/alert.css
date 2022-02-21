@@ -1,0 +1,30 @@
+.alert{
+    padding:2rem;
+    width: 100%;
+    
+}
+
+.alert-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.alert-info{
+    background-color: var( --ALERT-INFO-BACKGROUND) ;
+    color: var( --ALERT-INFO-TEXT);
+}
+
+.alert-success{
+    background-color: var( --ALERT-SUCCESS-BACKGROUND) ;
+    color: var( --ALERT-SUCCESS-TEXT);
+}
+.alert-warning{
+    background-color: var( --ALERT-WARNING-BACKGROUND) ;
+    color: var( --ALERT-WARNING-TEXT);
+}
+.alert-error{
+    background-color: var( --ALERT-ERROR-BACKGROUND) ;
+    color: var( --ALERT-ERROR-TEXT);
+}

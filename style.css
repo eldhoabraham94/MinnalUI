@@ -1,0 +1,61 @@
+@import "/components/avatar/avatar.css";
+@import "/components/alert/alert.css";
+@import "/components/button/button.css";
+@import "/components/badge/badge.css";
+@import "/components/common.css";
+@import "/components/cards/cards.css";
+@import "/components/image/image.css";
+@import "/components/input/input.css";
+@import "/components/modal/modal.css";
+@import "/components/snackbar/snackbar.css";
+@import "/components//list/list.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+*{
+    padding:0;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+
+}
+label.logo{
+    color:white;
+    font-size:35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}

@@ -1,0 +1,46 @@
+.badge{
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 0;
+    right:0 ;
+
+}
+
+.badge-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.badge-wrapper{
+    position: relative;
+}
+
+.badge-online{
+   
+    
+    background-color: var(--BADGE-ONLINE);
+
+}
+
+.badge-busy{
+    position: absolute;
+    top: 0;
+    right:0 ;
+    background-color: var(--BADGE-BUSY);
+    
+}
+
+.badge-new{
+    border-radius: 5%;;
+    width:5rem;
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    background-color: var(--BUTTON-BACKGROUND);
+    color: var(--ALERT-INFO-BACKGROUND);
+    padding: 0.2rem 0.5rem;   
+    font-weight: 700;
+}

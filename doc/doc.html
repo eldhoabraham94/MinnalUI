@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minnal UI - A lightning fast UI component library</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link href="/assets/prism/prism.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav>
+    <label for="check">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">MinnalUI</label>
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="doc.html">Docs</a></li>
+    </ul>
+  </nav>
+  <div>
+    <nav>
+      <ul>
+        <li><a class="active" href="#Avatar">Avatar</a></li>
+        <li><a class="active" href="#Alert">Alert</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="main-section">
+    <!-- Avatar Begins -->
+    <div class="component-container">
+      <div class="avatar-container">
+        <h1 class="item-head">Avatar</h1>
+        <p class="item-desc">Show display picture of a user</p>
+        <p class="item-details">
+          To use this avatar, you can use class name 'avatar'. For multiple
+          sizes following classes can be used av-xxl, av-xl, av-lg, av-sm
+        </p>
+        <div class="avatar-item-container">
+          <div class="avatar av-xxl">
+            <img src="/assets/avatar.png" />
+          </div>
+          <div class="avatar av-xl">
+            <img src="/assets/avatar.png" />
+          </div>
+          <div class="avatar av-lg">
+            <img src="/assets/avatar.png" />
+          </div>
+          <div class="avatar av-sm">
+            <img src="/assets/avatar.png" />
+          </div>
+        </div>
+
+        <pre>
+                    <code class="language-markup">
+                        <script type="prism-html-markup">
+                            <div class="avatar av-xxl">
+                                <img src="/assets/avatar.png">
+                            </div>
+                            <div class="avatar av-xl">
+                                <img src="/assets/avatar.png">
+                            </div>
+                            <div class="avatar av-lg">
+                                <img src="/assets/avatar.png">
+                            </div>
+                            <div class="avatar av-sm">
+                                <img src="/assets/avatar.png">
+                            </div>
+                        </script>
+                    </code>
+                </pre>
+      </div>
+    </div>
+    <!-- Avatar Ends -->
+
+    <!-- Alert Begins -->
+    <div class="component-container">
+      <div class="alert-container">
+        <h1 class="item-head">Alert</h1>
+        <p class="item-desc">
+          Show alert for multiple scenarios: Information, Error, Warning,
+          Success
+        </p>
+        <p class="item-details">
+          To use this alertbox, you can use class name 'alert'. For multiple
+          scenarios following classes can be used alert-info, alert-success,
+          alert-error, alert-warning
+        </p>
+        <div class="alert-item-container">
+          <div class="alert alert-info">
+            <span>Example for info Alert </span>
+          </div>
+        </div>
+
+        <div class="alert-item-container">
+          <div class="alert alert-success">
+            <span>Example for Success Alert </span>
+          </div>
+        </div>
+
+        <div class="alert-item-container">
+          <div class="alert alert-warning">
+            <span>Example for Warning Alert </span>
+          </div>
+        </div>
+
+        <div class="alert-item-container">
+          <div class="alert alert-error">
+            <span>Example for Error Alert </span>
+          </div>
+        </div>
+
+        <pre>
+                <code class="language-markup">
+                    <script type="prism-html-markup">
+                        <div class="alert-item-container">     
+                            <div class="alert alert-warning">           
+                                <span>Example for Warning Alert      
+                                </span>
+                            </div>
+                        </div>
+                    </script>
+                </code>
+            </pre>
+      </div>
+    </div>
+    <!-- Alert Ends -->
+
+    <!-- Badge Begins -->
+
+    <div class="component-container">
+      <div class="badge-container">
+        <h1 class="item-head">Badge</h1>
+        <p class="item-desc">
+          Show Badge for multiple notification: Online, Offline, Count
+        </p>
+        <p class="item-details">
+          To use this alertbox, you can use class name 'badge'. For multiple
+          scenarios following classes can be used badge-online, badge-offline,
+          badge-count
+        </p>
+        <div class="avatar-container">
+          <div class="avatar-item-container">
+            <div class="avatar av-xxl">
+              <div class="badge-wrapper">
+                <img src="/assets/avatar.png" />
+                <span class="badge badge-online"></span>
+              </div>
+            </div>
+            <div class="avatar av-xxl">
+              <div class="badge-wrapper">
+                <img src="/assets/avatar.png" />
+                <span class="badge badge-busy"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <pre>
+                <code class="language-markup">
+                    <script type="prism-html-markup">
+                        <div class="avatar av-xxl">               
+                            <div class="badge-wrapper">
+                                <img src="/assets/avatar.png">
+                            <span class="badge badge-online "></span>
+                            </div>
+                        </div>
+                        <div class="avatar av-xxl">               
+                            <div class="badge-wrapper">
+                                <img src="/assets/avatar.png">
+                            <span class="badge badge-busy "></span>
+                            </div>
+                        </div>
+                    </script>
+                </code>
+            </pre>
+      </div>
+    </div>
+    <!-- Badge Ends -->
+
+    <!-- Button Begins -->
+    <div class="component-container">
+      <div class="button-container">
+        <h1 class="item-head">Button</h1>
+        <p class="item-desc">
+          Multiple buttons: Primary, Secondary, CTA, Icon button, Floating
+          Action Button
+        </p>
+        <p class="item-details">
+          To use this buttons, you can use class name 'btn'. For multiple
+          scenarios following classes can be used btn-primary,btn-secondary
+        </p>
+        <div class="button-wrapper">
+          <button href="#" class="btn btn-primary">Primary</button>
+          <button href="#" class="btn btn-secondary">Primary</button>
+          <button href="#" class="btn btn-secondary">
+            <i class="btn-icon fas fa-shopping-cart"></i>Add to Cart
+          </button>
+        </div>
+        <pre>
+                <code class="language-markup">
+                    <script type="prism-html-markup">
+                        <div class="button-wrapper">
+                            <button href="#" class="btn btn-primary">Primary</button>
+                            <button href="#" class="btn btn-secondary">Primary</button>
+                            <button href="#" class="btn btn-secondary"> 
+                                <i class="btn-icon fas fa-shopping-cart"></i>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </script>
+                </code>
+            </pre>
+      </div>
+    </div>
+    <!-- Button Ends -->
+
+    <!-- card Begins -->
+    <div class="component-container">
+      <div class="card-container">
+        <h1 class="item-head">Cards</h1>
+        <p class="item-desc">Multiple Cards</p>
+        <p class="item-details">
+          To use this cards, you can use class name 'card'. For multiple
+          scenarios following classes can be used: card-vertical
+        </p>
+        <!-- vertical card begins -->
+        <h3>Example of vertical card</h3>
+        <div class="card-item-container">
+          <div class="card card-vertical">
+            <i class="far fa-heart"></i>
+            <img src="https://picsum.photos/200/300" class="img-responsive" alt="camera" />
+            <h5 class="card-title">Camera</h5>
+            <span class="card-price">Rs. 20,000</span>
+            <div class="button-wrapper">
+              <button href="#" class="btn btn-primary">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <pre>
+                <code class="language-markup">
+                    <script type="prism-html-markup">
+                        <div class="card-item-container">
+          
+                            <div class="card card-vertical">
+                              <i class="far fa-heart"></i>
+                              <img
+                                src="https://picsum.photos/200/300"
+                                class="img-responsive"
+                                alt="camera"
+                              />
+                              <h5 class="card-title">Camera</h5>
+                              <span class="card-price">Rs. 20,000</span>
+                              <div class="button-wrapper">
+                                <button href="#" class="btn btn-primary">Add to cart</button>
+                              </div>
+                            </div>
+                          </div>
+                    </script>
+                </code>
+            </pre>
+
+        <!-- vertical card with badge -->
+        <h3>Example of vertical card</h3>
+        <div class="card-item-container">
+          <div class="card card-vertical">
+            <i class="far fa-heart"></i>
+            <span class="badge badge-new">NEW</span>
+            <img src="https://picsum.photos/200/300" class="img-responsive" alt="camera" />
+            <h5 class="card-title">Camera</h5>
+            <span class="card-price">Rs. 20,000</span>
+            <div class="button-wrapper">
+              <button href="#" class="btn btn-primary">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <pre>
+      <code class="language-markup">
+          <script type="prism-html-markup">
+            <div class="card card-vertical">
+                <i class="far fa-heart"></i>
+                <span class="badge badge-new">NEW</span>
+                <img
+                  src="https://picsum.photos/200/300"
+                  class="img-responsive"
+                  alt="camera"
+                />
+                <h5 class="card-title">Camera</h5>
+                <span class="card-price">Rs. 20,000</span>
+                <div class="button-wrapper">
+                  <button href="#" class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+          </script>
+      </code>
+  </pre>
+
+        <!-- vertical card with overlay -->
+        <h3>Example of vertical card with overlay</h3>
+        <div class="card-item-container">
+          <div class="card card-vertical">
+            <i class="far fa-heart"></i>
+            <span class="badge badge-new">NEW</span>
+            <span class="card-overlay">OUT OF STOCK</span>
+            <img src="https://picsum.photos/200/300" class="img-responsive" alt="camera" />
+            <h5 class="card-title">Camera</h5>
+            <span class="card-price">Rs. 20,000</span>
+            <div class="button-wrapper">
+              <button href="#" class="btn btn-primary">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <pre>
+      <code class="language-markup">
+          <script type="prism-html-markup">
+            <div class="card card-vertical">
+                <i class="far fa-heart"></i>
+                <span class="badge badge-new">NEW</span>
+                <span class="card-overlay">OUT OF STOCK</span>
+                <img
+                  src="https://picsum.photos/200/300"
+                  class="img-responsive"
+                  alt="camera"
+                />
+                <h5 class="card-title">Camera</h5>
+                <span class="card-price">Rs. 20,000</span>
+                <div class="button-wrapper">
+                  <button href="#" class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+          </script>
+      </code>
+  </pre>
+
+        <!-- horizontal card with badge -->
+        <h3>Example of vertical card</h3>
+        <div class="card-item-container">
+          <div class="card card-horizontal">
+            <i class="far fa-heart"></i>
+            <span class="badge badge-new">NEW</span>
+            <img src="https://picsum.photos/300/200" class="img-responsive" alt="camera" />
+            <div class="card-info-hz">
+              <h3 class="card-title">Camera</h3>
+              <span class="card-price">Rs. 20,000</span>
+            </div>
+            <div class="card-btn-wrapper-hz">
+              <button href="#" class="btn btn-primary">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <pre>
+      <code class="language-markup">
+          <script type="prism-html-markup">
+            <div class="card card-vertical">
+                <i class="far fa-heart"></i>
+                <span class="badge badge-new">NEW</span>
+                <img
+                  src="https://picsum.photos/200/300"
+                  class="img-responsive"
+                  alt="camera"
+                />
+                <h5 class="card-title">Camera</h5>
+                <span class="card-price">Rs. 20,000</span>
+                <div class="button-wrapper">
+                  <button href="#" class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+          </script>
+      </code>
+  </pre>
+
+        <!-- text card with badge -->
+        <h3>Example of text card with dismiss</h3>
+        <div class="card-item-container">
+          <div class="card text-card">
+            <div class="card-head">
+              <h3>Card title</h3>
+              <a href="#"><i class="fas fa-times"></i></a>
+            </div>
+            <p class="card-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Sodales neque sodales ut etiam sit amet nisl. Sed adipiscing
+              diam donec adipiscing tristique risus. Etiam non quam lacus
+              suspendisse faucibus interdum posuere lorem. Neque gravida in
+              fermentum et sollicitudin ac orci
+            </p>
+            <div class="card-foot">
+              <a href="#" class="btn btn-primary">Yes</a>
+              <a href="#" class="btn btn-secondary">No</a>
+            </div>
+          </div>
+        </div>
+        <pre>
+      <code class="language-markup">
+          <script type="prism-html-markup">
+            <div class="card text-card">
+                <div class="card-head">
+                  <h3>Card title</h3>
+                  <a href="#"><i class="fas fa-times"></i></a>
+                </div>
+                <p class="card-content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Sodales neque
+                  sodales ut etiam sit amet nisl. Sed adipiscing diam donec adipiscing
+                  tristique risus. Etiam non quam lacus suspendisse faucibus interdum
+                  posuere lorem. Neque gravida in fermentum et sollicitudin ac orci
+                </p>
+                <div class="card-foot">
+                    <a href="#" class="btn btn-primary">Yes</a>
+                    <a href="#" class="btn btn-secondary">No</a>
+                </div>
+            </div>
+          </script>
+      </code>
+   </pre>
+      </div>
+    </div>
+    <!-- Button Ends -->
+
+    <!-- Image Begins -->
+    <div class="component-container">
+      <div class="image-container">
+        <h1 class="item-head">Images</h1>
+        <p class="item-desc">Show responsive Images</p>
+        <p class="item-details">
+          To use this responsive sizing, you can use class name 'img img-xxl'. For multiple
+          sizes following classes can be used img-xxl, img-xl, img-lg, img-sm
+        </p>
+        <h3>Responsive Square images</h3>
+        <div class="image-item-container">
+          <div class="img img-xxl">
+            <img src="/assets/avatar.png" />
+          </div>
+          <div class="img img-xl">
+            <img src="/assets/avatar.png" />
+          </div>
+          <div class="img img-lg">
+            <img src="/assets/avatar.png" />
+          </div>
+          <div class="img img-sm">
+            <img src="/assets/avatar.png" />
+          </div>
+        </div>
+
+        <pre>
+                  <code class="language-markup">
+                      <script type="prism-html-markup">
+                        <div class="img img-xxl">
+                          <img src="/assets/avatar.png" />
+                        </div>
+                        <div class="img img-xl">
+                          <img src="/assets/avatar.png" />
+                        </div>
+                        <div class="img img-lg">
+                          <img src="/assets/avatar.png" />
+                        </div>
+                        <div class="img img-sm">
+                          <img src="/assets/avatar.png" />
+                        </div>
+                      </script>
+                  </code>
+         </pre>
+
+        <h3>Responsive Circle images</h3>
+        <div class="image-item-container">
+          <div class="img img-xxl img-rnd">
+            <img src="/assets/avatar.png" />
+          </div>
+          <div class="img img-xl img-rnd">
+            <img src="/assets/avatar.png" />
+          </div>
+          <div class="img img-lg img-rnd">
+            <img src="/assets/avatar.png" />
+          </div>
+          <div class="img img-sm img-rnd">
+            <img src="/assets/avatar.png" />
+          </div>
+        </div>
+
+        <pre>
+                  <code class="language-markup">
+                      <script type="prism-html-markup">
+                        <div class="img img-xxl img-rnd">
+                          <img src="/assets/avatar.png" />
+                        </div>
+                        <div class="img img-xl img-rnd">
+                          <img src="/assets/avatar.png" />
+                        </div>
+                        <div class="img img-lg img-rnd">
+                          <img src="/assets/avatar.png" />
+                        </div>
+                        <div class="img img-sm img-rnd">
+                          <img src="/assets/avatar.png" />
+                        </div>
+                      </script>
+                  </code>
+         </pre>
+      </div>
+    </div>
+    <!-- Image Ends -->
+
+    <!-- Image Begins -->
+    <div class="component-container">
+      <div class="input-container">
+        <h1 class="item-head">Input Fields</h1>
+        <p class="item-desc">Show multiple input fields with warning,error,success states</p>
+        <p class="item-details">
+          To use this responsive sizing, you can use class name 'input-box input-search input-warning'. For multiple
+          scenarios input-warning, input-error can be used.
+        </p>
+        <h3>Text Input Field Normal</h3>
+        <div class="input-item-container">
+          <div class="input-box input-search">
+            <input type="text" class="input-basic input-basic-icon" placeholder="Search" name="search">
+            <i class="icon-basic fas fa-search"></i>
+          </div>
+        </div>
+
+        <h3>Text Input Field Warning</h3>
+        <div class="input-item-container">
+          <div class="input-box input-search input-warning">
+            <input type="text" class="input-basic input-basic-icon" placeholder="Search" name="search">
+            <i class="icon-basic fas fa-search"></i>
+          </div>
+        </div>
+
+        <h3>Text Input Field Error</h3>
+        <div class="input-item-container">
+          <div class="input-box input-search input-error">
+            <input type="text" class="input-basic input-basic-icon" placeholder="Search" name="search">
+            <i class="icon-basic fas fa-search"></i>
+          </div>
+        </div>
+
+        <pre>
+                  <code class="language-markup">
+                      <script type="prism-html-markup">
+                      <div class="input-box input-search">
+                            <input type="text" class="input-basic input-basic-icon" placeholder="Search" name="search">
+                            <i class="icon-basic fas fa-search"></i>
+                      </div>
+
+                        <div class="input-box input-search input-warning">
+                          <input type="text" class="input-basic input-basic-icon" placeholder="Search" name="search">
+                          <i class="icon-basic fas fa-search"></i>
+                        </div>
+
+                      <div class="input-box input-search input-error">
+                        <input type="text" class="input-basic input-basic-icon" placeholder="Search" name="search">
+                        <i class="icon-basic fas fa-search"></i>
+                      </div>
+                      </script>
+                  </code>
+         </pre>
+
+
+      </div>
+    </div>
+    <!-- Image Ends -->
+
+
+
+
+
+    <!-- Modal Begins -->
+    <div class="component-container">
+      <div class="modal-main-container">
+
+        <h1 class="item-head">Modal</h1>
+        <p class="item-desc">
+          Responsive Modal
+        </p>
+        <p class="item-details">
+          To use this modal, you can use class name 'modal-container'.
+        </p>
+        <div>
+          <button id="modal-demo-btn" class="btn btn-primary-solid btn-squared">
+            Modal Demo
+          </button>
+        </div>
+        <div>
+          <div id="modal-container" class="modal-container hide">
+            <div class=" modal">
+              <div class="modal-head">Modal Head</div>
+
+              <p class="modal-body">
+                Model Content Goes here
+              </p>
+
+              <div class="modal-foot">
+                <button id="modal-close-btn" class="btn btn-primary-outline">
+                  Close
+                </button>
+                <button class="btn btn-primary-solid">Save Changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <pre>
+                <code class="language-markup">
+                    <script type="prism-html-markup">
+                      <div class=" modal">
+                        <div class="modal-head">Modal Head</div>          
+                        <p class="modal-body">
+                          Model Content Goes here
+                        </p>          
+                        <div class="modal-foot">
+                          <button id="modal-close-btn" class="btn btn-primary-outline">
+                            Close
+                          </button>
+                          <button class="btn btn-primary-solid">Save Changes</button>
+                        </div>
+                      </div>
+                    </script>
+                </code>
+            </pre>
+      </div>
+    </div>
+    <!-- Modal Ends -->
+
+
+
+    <!-- Toast Begins -->
+    <div class="component-container">
+      <div class="snackbar-main-container">
+
+        <h1 class="item-head">Snackbar/Toast</h1>
+        <p class="item-desc">
+          Snackbar/Toast
+        </p>
+        <p class="item-details">
+          To use this Snackbar, you can use id name 'snackbar'.
+        </p>
+        <div>
+          <button id="snackbars-demo-btn" class="btn btn-primary-solid btn-squared">
+            Click Here
+          </button>
+        </div>
+
+        <div id="snackbar">Some text some message..</div>
+
+        <pre>
+                <code class="language-markup">
+                    <script type="prism-html-markup">
+                      <div>
+                        <button id="snackbars-demo-btn" class="btn btn-primary-solid btn-squared">
+                         Snackbar/Toast Demo
+                        </button>
+                      </div>
+                      
+                      <div id="snackbar">Some text some message..</div>
+                    </script>
+                </code>
+            </pre>
+      </div>
+    </div>
+    <!-- Toast Ends -->
+
+
+
+    <!-- List Begins -->
+    <div class="component-container">
+      <div class="list-main-container">
+
+        <h1 class="item-head">List</h1>
+        <p class="item-desc">
+          List
+        </p>
+        <p class="item-details">
+          To use this List, you can use class name 'list'.
+        </p>
+
+
+
+        <p class="item-desc">
+          Unordered List
+        </p>
+        <p class="item-details">
+          To use this List, you can use class name 'unordered-list-circle,unordered-list-disc,unordered-list-square'.
+        </p>
+        <div class="section-ul">
+          <ul class="unordered-list-circle">
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+          </ul>
+
+          <ul class="unordered-list-disc">
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+          </ul>
+
+          <ul class="unordered-list-square">
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+          </ul>
+        </div>
+
+        
+        <pre>
+          <code class="language-markup">
+              <script type="prism-html-markup">
+                <div class="section-ul">
+                  <ul class="unordered-list-circle">
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li>
+                  </ul>
+                </div>
+              </script>
+          </code>
+      </pre>
+
+      <p class="item-desc">
+        Stacked List
+      </p>
+      <p class="item-details">
+        To use this List, you can use class name 'stacked'.
+      </p>
+        <div class="section-ul">
+
+          <div class="stacked">
+            <ul>
+              <li class="item">Item</li>
+              <li class="item">Item</li>
+              <li class="item">Item</li>
+              <li class="item">Item</li>
+            </ul>
+          </div>
+        </div>
+
+
+
+
+        <pre>
+                <code class="language-markup">
+                    <script type="prism-html-markup">
+                      <div class="stacked">
+                        <ul>
+                          <li class="item">Item</li>
+                          <li class="item">Item</li>
+                          <li class="item">Item</li>
+                          <li class="item">Item</li>
+                        </ul>
+                      </div>
+                    </script>
+                </code>
+            </pre>
+      </div>
+    </div>
+    <!-- List Ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  <script src="/assets/prism/prism.js"></script>
+  <script src="/assets/app.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
